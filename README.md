@@ -16,29 +16,31 @@
 
 ## 运行
 数据库默认使用test集合  
-首次运行需要在根目录安装包 `npm install`
+首次运行需要在根目录安装包 `npm install`  
+在config.js中修改数据库连接集合
 
 ## 文件目录
 ```
 .
 ├── README.md
 ├── app.js
+├── config.js
 ├── gulpfile.js
 ├── model
-│   ├── connect.js
-│   └── user.js
+│   ├── connect.js
+│   └── user.js
 ├── package-lock.json
 ├── package.json
 ├── public
-│   ├── css
-│   │   ├── bootstrap.css
-│   │   ├── list.css
-│   │   └── main.css
-│   └── js
-│       ├── bootstrap.js
-│       └── jquery.js
+│   ├── css
+│   │   ├── bootstrap.css
+│   │   ├── list.css
+│   │   └── main.css
+│   └── js
+│       ├── bootstrap.js
+│       └── jquery.js
 ├── route
-│   └── route.js
+│   └── route.js
 └── view
     ├── add.art
     ├── list.art
